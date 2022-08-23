@@ -446,4 +446,8 @@
   margin-top: 466px;
   margin-left: 285px;
   position: absolute;
+}
+.body__svg:hover {
+  scale: 1.1;
+  transform: rotate(90deg);
 }/*# sourceMappingURL=header.css.map */

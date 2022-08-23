@@ -198,6 +198,7 @@ $font-titan:'Titan One', cursive;
     &__link:hover{
         color: $pink2;
     }
+    
 }
 .button-container:hover{
     transform: translateY(-10px);
@@ -351,8 +352,7 @@ $font-titan:'Titan One', cursive;
     &__glass{
         position: absolute;
         margin-top: 301px;
-        margin-left: 70px;
-        
+        margin-left: 70px;  
     }
     &__par{
         position: absolute;
@@ -367,6 +367,10 @@ $font-titan:'Titan One', cursive;
         margin-top: 466px;
         margin-left: 285px;
         position: absolute;
+    }
+    &__svg:hover{
+        scale: 1.1;
+        transform: rotate(90deg);
     }
     
 } 
