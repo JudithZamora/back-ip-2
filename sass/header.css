@@ -279,6 +279,16 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+.nav__link--pink {
+  color: #D41443;
+}
+.nav__link:hover {
+  color: #D41443;
+}
+
+.button-container:hover {
+  transform: translateY(-10px);
+}
 
 .button-container {
   width: 159px;
@@ -401,8 +411,11 @@
   background-color: #D41443;
   margin-right: 12px;
 }
+.body .buttons__button:hover {
+  transform: translateY(-10px);
+}
 .body .buttons__button-whithe {
-  width: 107px;
+  width: 138px;
   height: 40px;
   border: none;
   border-radius: 20px;
@@ -411,6 +424,9 @@
   line-height: 18px;
   color: #D41443;
   background-color: #FFFFFF;
+}
+.body .buttons__button-whithe:hover {
+  transform: translateY(-10px);
 }
 .body__glass {
   position: absolute;
