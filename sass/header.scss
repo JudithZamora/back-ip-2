@@ -20,6 +20,39 @@ $font-titan:'Titan One', cursive;
     50%{background-position: 100% 70%;}
     100%{background-position: 0% 50%;}}
 }
+.burbujas-rigth{
+    opacity: .4;
+    
+    &__burbuja{
+        border-radius: 50px;
+        bottom: 0;
+        position: absolute;
+        animation: bubblesr 2s normal infinite;
+    }
+    &__burbuja:nth-child(1){
+        width: 100px;
+        height: 100px;
+        left: 20%;
+        animation-duration: 3.5s;
+        background-color: $white;
+    }    
+    &__burbuja:nth-child(2){
+        width: 100px;
+        height: 100px;
+        left: 80%;
+        position: absolute;
+        animation-duration: 6s;
+        background-color: $white;
+    }
+    @keyframes bubblesr {
+        0%{transform: translateX(0%);}
+        15%{transform: translateX(0px);}
+        40%{transform: translateX(110px);}
+        95%{transform: translateX(90px);}
+        100%{bottom: 100vh;
+            transform: translateX(90px);}}
+        }              
+
 
 .burbujas{
     opacity: .4;
@@ -197,8 +230,7 @@ $font-titan:'Titan One', cursive;
     }
     &__link:hover{
         color: $pink2;
-    }
-    
+    }    
 }
 .button-container:hover{
     transform: translateY(-10px);
