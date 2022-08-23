@@ -298,11 +298,78 @@
   margin-left: 12px;
 }
 
+.body__img--ice {
+  position: absolute;
+  margin-left: 676px;
+  margin-top: 20px;
+}
+.body__img--girl {
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 334px;
+}
+.body .group-2 {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.body .group-2__span {
+  position: absolute;
+  margin-left: 1152px;
+  margin-top: 50px;
+  font-family: "Titan One", cursive;
+  font-size: 46px;
+  color: #D41443;
+  margin-right: 40px;
+}
+.body .group-2__svg {
+  margin-left: 1194px;
+  margin-top: 50px;
+}
+.body .group-2__text {
+  clear: both;
+  display: table;
+  color: #FFFFFF;
+  margin-left: 1171px;
+  margin-top: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.body .group-3 {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 150px;
+}
+.body .group-3__span {
+  position: absolute;
+  margin-left: 1152px;
+  margin-top: 50px;
+  font-family: "Titan One", cursive;
+  font-size: 46px;
+  color: #D41443;
+  margin-right: 40px;
+}
+.body .group-3__svg {
+  margin-left: 1194px;
+  margin-top: 50px;
+}
+.body .group-3__text {
+  clear: both;
+  display: table;
+  color: #FFFFFF;
+  margin-left: 1171px;
+  margin-top: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
 .body__tittle {
   width: 277px;
   height: 137px;
   margin-top: 60px;
   margin-left: 70px;
+  position: absolute;
 }
 .body__h2 {
   font-family: "Titan One", cursive;
@@ -345,17 +412,22 @@
   color: #D41443;
   background-color: #FFFFFF;
 }
-
-.group-2 {
-  float: right;
-  background-color: orange;
-}
-.group-2__span {
+.body__glass {
   position: absolute;
-  color: #D41443;
+  margin-top: 301px;
+  margin-left: 70px;
 }
-.group-2__text {
-  clear: both;
-  display: table;
+.body__par {
+  position: absolute;
+  margin-top: 369px;
+  margin-left: 283px;
   color: #FFFFFF;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.body__svg {
+  margin-top: 466px;
+  margin-left: 285px;
+  position: absolute;
 }/*# sourceMappingURL=header.css.map */

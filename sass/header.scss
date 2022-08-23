@@ -212,11 +212,81 @@ $font-titan:'Titan One', cursive;
 
  }  
 .body{
+    &__img{
+        
+    }
+    &__img--ice{
+        position: absolute;
+        margin-left: 676px;
+        margin-top: 20px;
+    }
+    &__img--girl{
+        position: absolute;
+        margin-left: 950px;
+        margin-top: 334px;
+    }
+    .group-2{
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 30px;
+        &__span{
+            position: absolute;
+            margin-left: 1152px;
+            margin-top: 50px;
+            font-family: $font-titan;
+            font-size: 46px;
+            color: $pink2;
+            margin-right: 40px;
+        }
+        &__svg{
+            margin-left: 1194px;
+            margin-top: 50px;
+        }
+        &__text{
+            clear: both;
+            display: table;
+            color: $white;
+            margin-left: 1171px;
+            margin-top: 15px;
+            font-family: $font-sans;
+            font-size: 14px;
+            line-height: 18px;  
+        }
+    }
+    .group-3{
+        position: absolute;
+           margin-left: 80px;
+           margin-top: 150px;
+        &__span{
+            position: absolute;
+            margin-left: 1152px;
+            margin-top: 50px;
+            font-family: $font-titan;
+            font-size: 46px;
+            color: $pink2;
+            margin-right: 40px;
+        }
+        &__svg{
+            margin-left: 1194px;
+            margin-top: 50px;
+        }
+        &__text{
+            clear: both;
+            display: table;
+            color: $white;
+            margin-left: 1171px;
+            margin-top: 15px;
+            font-family: $font-sans;
+            font-size: 14px;
+            line-height: 18px;  
+        }
+}
     &__tittle{
         width: 277px;
         height: 137px;
         margin-top: 60px;
         margin-left: 70px;
+        position: absolute; 
         
     }
     &__h2{
@@ -226,6 +296,7 @@ $font-titan:'Titan One', cursive;
         line-height: 43.51px;
         letter-spacing: 4%;
         color: $white;
+        
     }
     &__span{
         color:$pink2;
@@ -260,26 +331,29 @@ $font-titan:'Titan One', cursive;
         background-color: $white;
         }
        
-    }}
- .group-2{
-    
-    float: right;
-    background-color: orange;
-    &__container{  
     }
-    &__span{
+    &__glass{
         position: absolute;
-        color: $pink2;
+        margin-top: 301px;
+        margin-left: 70px;
+        
+    }
+    &__par{
+        position: absolute;
+        margin-top: 369px;
+        margin-left: 283px;
+        color: $white;
+        font-family: $font-sans;
+        font-size: 14px;
+        line-height: 20px;
     }
     &__svg{
-      
+        margin-top: 466px;
+        margin-left: 285px;
+        position: absolute;
     }
-    &__text{
-        clear: both;
-        display: table;
-        color: $white;
-    }
- }
+    
+} 
   
  
 
