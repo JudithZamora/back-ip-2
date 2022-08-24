@@ -403,8 +403,120 @@ $font-titan:'Titan One', cursive;
     }
     
 } 
+.over-lay{
+    background-color: rgba(249, 220, 251, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    
+    .popup{
+        margin-top: 10px;
+        width: 40%;
+        height: 600px;
+        background-color: $pink;
+        box-shadow: 0px 0px 5px 0 px $pink2;
+        border-radius: 5px;
+        border: 5px solid $pink2;
+        &__svg{
+            position: absolute;
+            margin-left: 499px;
+            margin-right: 10px;
+           margin-top: 10px;
+        }
+        &__tittle{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            font-family: $font-titan;
+            color: $pink2;
+            font-size: 28px;
+            text-align: center;    
+        }
+        &__imgs{  
+           scale: 40%;
+           display: flex;
+           justify-content: center;
+           margin-top: -150px;
+          
+        }
+        &__img{
+           
+            
+        }
+        .container-inputs{
+            
+            margin-left: 55px;
+            &__input1{
+                position: absolute;
+                margin-top: -110px;
+                margin-right: 50px;
+                border: 2px solid $pink2;
+                border-radius: 5px;
+                height: 25px;
+                text-align: center;
+               
+            }
+            &__input2{
+                position: absolute;
+                margin-top: -110px;
+                margin-left: 155px;
+                border: 2px solid $pink2;
+                border-radius: 5px;
+                height: 25px;
+                text-align: center;
+               
+            }
+            &__input3{
+                position: absolute;
+                margin-top: -110px;
+                margin-left: 310px;
+                border: 2px solid $pink2;
+                border-radius: 5px;
+                height: 25px;
+                text-align: center;
+               
+            }
+        }
+        .container-name{
+            position: absolute;
+            &__content{
+                margin-top: -80px;
+                margin-left: 170px;
+                
+            }
+            &__name{
+                font-family: $font-sans;
+                font-size: 18px;
+                margin-bottom: 10px;
+                color: $pink2;
+            }
+            &__input{
+                clear: both;
+                display: table;
+                border:2px solid $pink2;
+                border-radius: 3px;
+                border-radius: 5px;
+                height: 23px;
+            }
+           
+        }
+       
+       
+    }
+   
+   
+    
+       
+    
+    
+   
+   
+}
 /* responsive small */
-@media only screen and (min-width:320px) {
+/*@media only screen and (min-width:320px) {
     .background{
         height: 540px;   
     }
@@ -515,6 +627,6 @@ $font-titan:'Titan One', cursive;
         display: none;
     }
 }
-  
+ */ 
  
 
