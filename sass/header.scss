@@ -442,9 +442,7 @@ $font-titan:'Titan One', cursive;
            margin-top: -150px;
           
         }
-        &__img{
-           
-            
+        &__img{       
         }
         .container-inputs{
             
@@ -500,11 +498,53 @@ $font-titan:'Titan One', cursive;
                 border-radius: 3px;
                 border-radius: 5px;
                 height: 23px;
-            }
-           
+            }          
         }
-       
-       
+        .container-phone{
+            position: absolute;
+            &__content{
+                margin-top: -30px;
+                margin-left: 160px;
+                
+            }
+            &__name{
+                font-family: $font-sans;
+                font-size: 18px;
+                margin-bottom: 10px;
+                color: $pink2;
+            }
+            &__input{
+                clear: both;
+                display: table;
+                border:2px solid $pink2;
+                border-radius: 3px;
+                border-radius: 5px;
+                height: 23px;
+            }
+        }
+        .container-correo{
+            position: absolute;
+            &__content{
+                margin-top:20px;
+                margin-left: 160px;
+                
+            }
+            &__name{
+                font-family: $font-sans;
+                font-size: 18px;
+                margin-bottom: 10px;
+                color: $pink2;
+            }
+            &__input{
+                clear: both;
+                display: table;
+                border:2px solid $pink2;
+                border-radius: 3px;
+                border-radius: 5px;
+                height: 23px;
+            }
+        }
+            
     }
    
    
