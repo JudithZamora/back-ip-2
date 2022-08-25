@@ -404,7 +404,7 @@ $color-font-input:#7b7979;
     }
     
 } 
-.over-lay{
+.over-lay{   
     background-color: rgba(249, 220, 251, 0.3);
     position: fixed;
     top: 0;
@@ -412,8 +412,10 @@ $color-font-input:#7b7979;
     right: 0;
     display: flex;
     justify-content: center;
-    height: 100%;  
-    .popup{
+    height: 100%; 
+    visibility: hidden;
+
+    .popup{ 
         margin-top: 5px;
         margin-bottom: 5px;
         width: 37%;
@@ -517,6 +519,7 @@ $color-font-input:#7b7979;
         }
     } 
 }
+
     /* 
     &__intcontent{
         width: 100%;

@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Titan+One&display=swap"
       rel="stylesheet"
     />
+
     <title>Document</title>
   </head>
   <body>
@@ -49,26 +50,27 @@
           <a class="nav__link" href="">How it&apos;s made?</a>
           <a class="nav__link" href="">Our products</a>
           <a class="nav__link" href="">Contact</a>
-          <button class="button-container">
-            <span class="button-container__span">Buy Now</span>
-            <svg
-              class="button-container__svg"
-              width="6"
-              height="10"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="m1 1 4 4-4 4"
-                stroke="#D41443"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
+          <a href="#" class="open" id="open">
+            <button class="button-container">
+              <span class="button-container__span">Buy Now</span>
+              <svg
+                class="button-container__svg"
+                width="6"
+                height="10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m1 1 4 4-4 4"
+                  stroke="#D41443"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </a>
         </div>
-
         <!-- body -->
         <div class="body">
           <div class="body__img">
@@ -166,145 +168,125 @@
           </svg>
         </div>
       </div>
-    </div>
-    <!-- modal -->
-    <div class="over-lay">
-      <div class="popup">
-        <div class="popup__intcontent">
-          <div class="popup__intcontent--tittle">
-            <a
-              href="#"
-              id="popup__intcontent--tittle"
-              class="btn-cerrar-pop-up"
-            >
-              <svg
-                class="popup__intcontent--tittlesvg"
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M1.25928 1L14.7408 15" stroke="white" />
-                <path d="M1 14.7407L15 1.25924" stroke="white" />
-              </svg>
-            </a>
-            <h2>Syper pyper Ice Cream</h2>
-          </div>
-          <div class="popup__intcontent--imgs">
-            <img
-              class="popup__intcontent--img"
-              src="./images/home-pic1.png"
-              alt=""
-              width="150"
-              height="150"
-            />
+      <!-- modal -->
+      <div class="over-lay" id="over-lay">
+        <div class="popup" id="popup">
+          <div class="popup__intcontent">
+            <div class="popup__intcontent--tittle" id="btncerrarpopup">
+              <a href="#" id="close" class="close">
+                <svg
+                  class="popup__intcontent--tittlesvg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1.25928 1L14.7408 15" stroke="white" />
+                  <path d="M1 14.7407L15 1.25924" stroke="white" />
+                </svg>
+              </a>
+              <h2>Syper pyper Ice Cream</h2>
+            </div>
+            <div class="popup__intcontent--imgs">
+              <img
+                class="popup__intcontent--img"
+                src="./images/home-pic1.png"
+                alt=""
+                width="150"
+                height="150"
+              />
 
-            <img
-              class="popup__intcontent--img"
-              src="./images/home-pic2.png"
-              alt=""
-              width="150"
-              height="150"
-            />
+              <img
+                class="popup__intcontent--img"
+                src="./images/home-pic2.png"
+                alt=""
+                width="150"
+                height="150"
+              />
 
-            <img
-              class="popup__intcontent--img"
-              src="./images/home-pic3.png"
-              alt=""
-              width="150"
-              height="150"
-            />
-          </div>
-          <div class="popup__intcontent--how">
-            <input
-              class="popup__intcontent--input"
-              type="text"
-              name="text"
-              placeholder="how many?"
-              size="10"
-            />
-            <input
-              class="popup__intcontent--input"
-              type="text"
-              name="text"
-              placeholder="how many?"
-              size="10"
-            />
-            <input
-              class="popup__intcontent--input"
-              type="text"
-              name="text"
-              placeholder="how many?"
-              size="10"
-            />
-          </div>
-          <div class="popup__intcontent--nombre">
-            <label class="popup__intcontent--text" for="Name">Name</label>
-            <input
-              class="popup__intcontent--inputext"
-              type="name"
-              name="name"
-              placeholder="Ingresa tu nombre"
-              size="27"
-            />
-          </div>
-          <!-- phone -->
-          <div class="popup__intcontent--nombre">
-            <label class="popup__intcontent--text" for="Name">Phone</label>
-            <input
-              class="popup__intcontent--inputext"
-              type="tel"
-              name="tel"
-              placeholder="Ingresa tu Telefono"
-              size="27"
-            />
-          </div>
-          <!-- correo -->
-          <div class="popup__intcontent--nombre">
-            <label class="popup__intcontent--text" for="Name">Mail</label>
-            <input
-              class="popup__intcontent--inputext"
-              type="email"
-              name="email"
-              placeholder="Ingresa tu Telefono"
-              size="27"
-            />
-          </div>
-          <!-- textarea -->
-          <div class="popup__intcontent--nombre">
-            <textarea
-              class="popup__intcontent--inputextarea"
-              name="textarea"
-              rows="5"
-              cols="0"
-            >
-write something and maybe we read this</textarea
-            >
-          </div>
-          <!-- button -->
-          <div class="popup__intcontent--boton">
-            <input class="popup__button" type="submit" value="I want that!" />
-          </div>
-        </div>
-
-        <!-- correo -->
-
-        <!-- text
-          <div class="container-coment">
-            <div class="container-coment__content">
+              <img
+                class="popup__intcontent--img"
+                src="./images/home-pic3.png"
+                alt=""
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="popup__intcontent--how">
+              <input
+                class="popup__intcontent--input"
+                type="text"
+                name="text"
+                placeholder="how many?"
+                size="10"
+              />
+              <input
+                class="popup__intcontent--input"
+                type="text"
+                name="text"
+                placeholder="how many?"
+                size="10"
+              />
+              <input
+                class="popup__intcontent--input"
+                type="text"
+                name="text"
+                placeholder="how many?"
+                size="10"
+              />
+            </div>
+            <div class="popup__intcontent--nombre">
+              <label class="popup__intcontent--text" for="Name">Name</label>
+              <input
+                class="popup__intcontent--inputext"
+                type="name"
+                name="name"
+                placeholder="Ingresa tu nombre"
+                size="27"
+              />
+            </div>
+            <!-- phone -->
+            <div class="popup__intcontent--nombre">
+              <label class="popup__intcontent--text" for="Name">Phone</label>
+              <input
+                class="popup__intcontent--inputext"
+                type="tel"
+                name="tel"
+                placeholder="Ingresa tu Telefono"
+                size="27"
+              />
+            </div>
+            <!-- correo -->
+            <div class="popup__intcontent--nombre">
+              <label class="popup__intcontent--text" for="Name">Mail</label>
+              <input
+                class="popup__intcontent--inputext"
+                type="email"
+                name="email"
+                placeholder="Ingresa tu Telefono"
+                size="27"
+              />
+            </div>
+            <!-- textarea -->
+            <div class="popup__intcontent--nombre">
               <textarea
-                class="container-coment__input"
-                name="comentario"
-                rows="40"
-                cols="26"
+                class="popup__intcontent--inputextarea"
+                name="textarea"
+                rows="5"
+                cols="0"
               >
-              Write something and maybe we read this </textarea
+  write something and maybe we read this</textarea
               >
             </div>
+            <!-- button -->
+            <div class="popup__intcontent--boton">
+              <input class="popup__button" type="submit" value="I want that!" />
+            </div>
           </div>
-        </form> -->
+        </div>
       </div>
     </div>
+    <script src="popup.js"></script>
   </body>
 </html>

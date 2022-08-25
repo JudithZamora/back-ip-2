@@ -525,6 +525,7 @@
   display: flex;
   justify-content: center;
   height: 100%;
+  visibility: hidden;
 }
 .over-lay .popup {
   margin-top: 5px;
