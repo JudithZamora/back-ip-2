@@ -8,7 +8,7 @@
   width: 100%;
   height: 664px;
   position: relative;
-  background: linear-gradient(120deg, #FFB8CA, rgb(148, 8, 38));
+  background: linear-gradient(120deg, #FFB8CA, rgb(119, 30, 50));
   background-size: 300% 300%;
   -webkit-animation: cambiar 7s infinite;
           animation: cambiar 7s infinite;
@@ -348,6 +348,7 @@
 }
 .nav__link:hover {
   color: #D41443;
+  transform: translateY(-10px);
 }
 
 .button-container:hover {
@@ -652,164 +653,5 @@
   border: none;
 }
 .over-lay .popup__button:hover {
-  transform: translateY(-5px);
-}
-
-/* 
-    &__intcontent{
-        width: 100%;
-        height: 12%;
-
-        background-color: #929090;
-    }
-    &__intcontent--imgs{
-        width: 100%;
-        height: 12%;
-        background-color: #870505;
-    }
-    &__intcontent--how{
-        width: 100%;
-        height: 12%; 
-        background-color: #90137f;
-    }
-    &__intcontent--nombre{
-        width: 100%;
-        height: 12%; 
-        background-color: #5a11d7;
-    }
-    &__intcontent--tel{
-        width: 100%;
-        height: 12%; 
-        background-color: #139043;
-    }
-    &__intcontent--correo{
-        width: 100%;
-        height: 12%; 
-        background-color: #b7e42f;
-    }
-    &__intcontent--comment{
-        width: 100%;
-        height: 12%; 
-        background-color: #90137f;
-    }
-    &__intcontent--boton{
-        width: 100%;
-        height: 12%; 
-        background-color: #df6625;
-    }
-}
-
-
-/* responsive small */
-/*@media only screen and (min-width:320px) {
-    .background{
-        height: 540px;   
-    }
-    .burbujas-rigth{
-        display: none;
-    }
-    .burbujas{
-        &__burbuja:nth-child(1){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(2){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(3){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(4){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(5){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(6){
-            display: none;
-        }
-        &__burbuja:nth-child(7){
-            display: none;
-        }
-        &__burbuja:nth-child(8){
-            display: none;
-        }
-        &__burbuja:nth-child(9){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(10){
-            display: none;
-        }
-        &__burbuja:nth-child(11){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(12){
-            display: none;
-        }
-        &__burbuja:nth-child(13){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(14){
-            display: none;
-        }
-        &__burbuja:nth-child(15){
-            scale: 30%;
-        }
-        &__burbuja:nth-child(16){
-            display: none;
-        }
-        &__burbuja:nth-child(17){
-            display: none;
-        }
-        &__burbuja:nth-child(18){
-            display: none;
-        }
-    }
-    .nav{
-        &__img{
-            margin-right: 140px;
-            margin-top: 10px;
-        }
-        &__link{
-            display: none;
-        }
-        &__elipse{
-            scale: 65%;
-            margin-top: 20px;
-            margin-left: -52px;
-        }
-    }
-    .button-container{
-        display: none;
-    }
-    .body{
-        &__tittle{
-            scale: 80%;
-            margin-top: 110px; 
-            margin-left: -10px;
-        }
-        &__glass{
-            display: none;
-        }
-        &__par{
-            display: none;
-        }
-        &__svg{
-            display: none;
-        }
-        &__img--girl{
-            display: none;
-        }
-        &__img--ice{
-            scale: 76%;
-            margin-left: 150px;
-            margin-top: -10px;
-        }
-    }
-    .group-2{
-        display: none;
-    }
-    .group-3{
-        display: none;
-    }
-}
- *//*# sourceMappingURL=header.css.map */
+  transform: translateY(1px);
+}/*# sourceMappingURL=header.css.map */
