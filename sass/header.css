@@ -650,6 +650,9 @@
   border-radius: 22px;
   border: none;
 }
+.over-lay .popup__button:hover {
+  transform: translateY(-5px);
+}
 
 /* 
     &__intcontent{

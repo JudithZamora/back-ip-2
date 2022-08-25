@@ -512,6 +512,9 @@ $color-font-input:#7b7979;
             border-radius: 22px;
             border: none; 
         }
+        &__button:hover{
+            transform: translateY(-5px);
+        }
     } 
 }
     /* 
